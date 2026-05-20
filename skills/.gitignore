@@ -1,0 +1,52 @@
+# macOS
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build and temp output
+dist/
+build/
+tmp/
+temp/
+*.log
+
+# Environment and secrets
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+secrets.*
+
+# Codex and local-only skill artifacts
+.codex/
+memory.md
+
+# Keep custom skills, but avoid bundling built-in/system skill trees
+.system/
+codex-primary-runtime/
+

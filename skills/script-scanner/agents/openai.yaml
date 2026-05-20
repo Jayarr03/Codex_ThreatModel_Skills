@@ -1,0 +1,4 @@
+interface:
+  display_name: "Script Scanner"
+  short_description: "Quick script risk review reports"
+  default_prompt: "Use $script-scanner to review this script for vulnerabilities and design flaws, then produce a concise report."

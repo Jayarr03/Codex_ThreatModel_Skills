@@ -1,0 +1,4 @@
+interface:
+  display_name: "Repo Data Flow Review"
+  short_description: "Map repo data flow and inspect each function"
+  default_prompt: "Use $github-repo-data-flow-review to inspect this repository, build a basic data flow model, and review the functions involved in each stage."
